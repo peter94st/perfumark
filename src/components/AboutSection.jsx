@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 
 function BotanicalDecoration() {
   return (
@@ -67,6 +67,31 @@ export default function AboutSection () {
                         de perfumes, jabones y sets de baño, con la mejor
                         atención y un asesoramiento personalizado.
                     </p>
+
+                    <a
+                      href="https://maps.app.goo.gl/ajk8ejsNnPvBKetw9"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-4 group"
+                    >
+                      <Star className="size-6 text-brand-gold fill-brand-gold shrink-0" />
+
+                      <div>
+                        <h3 className="font-semibold text-brand-petrol">
+                          Opiniones de nuestros clientes
+                        </h3>
+
+                        <div className="flex items-center gap-2 mt-1">
+                          <span className="text-xl font-semibold text-brand-petrol">
+                            4,8/5
+                          </span>
+
+                          <span className="text-sm text-gray-600 group-hover:text-brand-teal transition-colors">
+                            · 56 reseñas en Google ↗
+                          </span>
+                        </div>
+                      </div>
+                    </a>
 
                     <Link
                         to='/nosotros'
