@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Paleta de marca */
+:root {
+  --brand-teal: #078A96;
+  --brand-petrol: #075563;
+  --brand-gold: #E9B83F;
+  --brand-cream: #F8F3E7;
+  --brand-white: #FFFFFF;
+
+  /* Colores semánticos de shadcn */
+  --background: var(--brand-cream);
+  --foreground: var(--brand-petrol);
+
+  --primary: var(--brand-teal);
+  --primary-foreground: var(--brand-white);
+
+  --secondary: #DDECE9;
+  --secondary-foreground: var(--brand-petrol);
+
+  --accent: var(--brand-gold);
+  --accent-foreground: var(--brand-petrol);
+
+  --muted: #EEE9DD;
+  --muted-foreground: #756F63;
+
+  --card: var(--brand-white);
+  --card-foreground: var(--brand-petrol);
+
+  --border: #D9D4C8;
+  --input: #D9D4C8;
+  --ring: var(--brand-teal);
+
+  --radius: 0.75rem;
+}
+
+/* Conectar las variables con Tailwind */
+@theme inline {
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-petrol: var(--brand-petrol);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-white: var(--brand-white);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-lg: var(--radius);
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
