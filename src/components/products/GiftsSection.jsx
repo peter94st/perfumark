@@ -1,7 +1,7 @@
 
 export function GiftsSection() {
     return (
-        <section className="max-w-6xl mx-auto px-6 py-16">
+        <section className="max-w-6xl mx-auto px-6 py-16" id="regalos">
 
             {/* Título */}
             <div className="flex items-center justify-center gap-6 mb-14">

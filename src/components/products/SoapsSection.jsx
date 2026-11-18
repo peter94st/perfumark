@@ -11,7 +11,7 @@ import { soapsList } from "./soapsList";
 
 export function SoapsSection () {
     return (
-        <section className="py-16 md:py-20">
+        <section className="py-16 md:py-20" id="jabones">
             
             {/* ENCABEZADO */}
             <div className="max-w-3xl mx-auto px-6 text-center mb-12">
@@ -19,7 +19,7 @@ export function SoapsSection () {
                     Cuidado natural
                 </span>
                 <h2 className="text-3xl md:text-4xl font-serif text-brand-petrol mt-3">
-                    Nuestros jabones
+                    Jabones
                 </h2>
                 <div className="h-[2px] w-14 bg-brand-gold mx-auto mt-5" />
 

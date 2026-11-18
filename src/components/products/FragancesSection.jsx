@@ -1,6 +1,6 @@
 export function FragancesSection () {
     return (
-      <section className="max-w-6xl mx-auto px-6 pb-16">
+      <section className="max-w-6xl mx-auto px-6 pb-16" id="fragancias">
         <div className="grid grid-cols-1 md:grid-cols-[0.8fr_1.2fr] gap-10 items-center">
 
           {/* Imagen */}
@@ -15,7 +15,7 @@ export function FragancesSection () {
           {/* Texto */}
           <div className="space-y-5">
             <h2 className="text-3xl md:text-4xl font-serif text-brand-petrol">
-               Nuestros Perfumes
+               Perfumes
             </h2>
 
             <div className="h-[2px] w-14 bg-brand-gold" />

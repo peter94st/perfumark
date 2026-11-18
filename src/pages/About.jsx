@@ -7,6 +7,11 @@ const reviews = [
     stars: 5,
     author: "Jimena P."
   },
+    {
+    text: "Unas colonias perfectas,huelen que alimentan,siempre encuentro la que quiero,y todo barato.Frascos originales a buen precio,rellenos si quieres(Hay de corazones,de flores,de pelotas,de bolsos...) Yo tengo uno de un bolso que tiene para guardar dos colonias,super original. Y por supuesto los dueños son super amables,majos, simpáticos,pacientes,te lo enseñan todo...De 10. Yo compro todas mis colonias allí. Lo recomiendo muchísimo.☺️😀😃😊",
+    stars: 5,
+    author: "Nadia B."
+  },
   {
     text: "Todo Excelente!  ya no sólo por el magnífico trato del dueño, sino por la calidad de sus perfumes! Estupendo servicio, calidad superbuena porque duran los perfumes un montón y precios increibles! Un 10/10",
     stars: 5,
@@ -17,11 +22,7 @@ const reviews = [
     stars: 5,
     author: "Ilo D."
   },
-  {
-    text: "Unas colonias perfectas,huelen que alimentan,siempre encuentro la que quiero,y todo barato.Frascos originales a buen precio,rellenos si quieres(Hay de corazones,de flores,de pelotas,de bolsos...) Yo tengo uno de un bolso que tiene para guardar dos colonias,super original. Y por supuesto los dueños son super amables,majos, simpáticos,pacientes,te lo enseñan todo...De 10. Yo compro todas mis colonias allí. Lo recomiendo muchísimo.☺️😀😃😊",
-    stars: 5,
-    author: "Nadia B."
-  },
+
 ];
 
 export default function About() {

@@ -1,6 +1,6 @@
 export function BathSetsSection () {
     return (
-        <section className="max-w-6xl mx-auto px-6 py-16">
+        <section className="max-w-6xl mx-auto px-6 py-16" id="sets-de-bano">
             <div className="grid grid-cols-1 md:grid-cols-[0.8fr_1.2fr] gap-10 items-center">
                 {/* Texto */}
                 <div className="space-y-5">

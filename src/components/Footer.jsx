@@ -20,9 +20,12 @@ export default function Footer() {
           {/* Marca */}
           <div className="space-y-4">
             <Link to="/" className="inline-block">
-              <h2 className="text-3xl font-serif font-semibold">
-                PerfumarK
-              </h2>
+              <div className="flex items-center">
+                <span className="font-['Montserrat'] font-semibold uppercase tracking-[0.35em]">
+                  Perfumar
+                </span>
+                <img src="/iconPerfumarkWhiteBg.svg" alt="" className="w-6 h-6 object-contain ml-0.5"/>
+              </div>
               <span className="text-[10px] tracking-[0.28em] uppercase text-brand-gold">
                 Bienestar & Belleza
               </span>
@@ -94,7 +97,7 @@ export default function Footer() {
         {/* Línea inferior */}
         <div className="border-t border-white/15 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} Perfumar. Todos los derechos reservados.
+            © {new Date().getFullYear()} Perfumark. Todos los derechos reservados.
           </p>
 
           <p className="text-xs text-white/50">

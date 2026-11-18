@@ -9,6 +9,7 @@ const categories = [
     icon: Sprout,
     color: "bg-[#DDECE9]",
     iconColor: "text-brand-teal",
+    link: "fragancias"
   },
   {
     title: "Jabones",
@@ -16,6 +17,7 @@ const categories = [
     icon: Flower2,
     color: "bg-[#F1E7CF]",
     iconColor: "text-[#A77B28]",
+    link: 'jabones'
   },
   {
     title: "Sets de baño",
@@ -23,6 +25,7 @@ const categories = [
     icon: Bath,
     color: "bg-[#E8E4D9]",
     iconColor: "text-brand-petrol",
+    link: "sets-de-bano"
   },
   {
     title: "Regalos",
@@ -30,6 +33,7 @@ const categories = [
     icon: Gift,
     color: "bg-[#F3E5DF]",
     iconColor: "text-[#B66C4D]",
+    link: "regalos"
   },
 ];
 
@@ -66,7 +70,7 @@ export default function ProductsSection() {
             return (
               <Link
                 key={category.title}
-                to="/productos"
+                to={`/productos#${category.link}`}
                 className={`group ${category.color} rounded-2xl p-7 min-h-56 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-lg`}
               >
                 <div className="flex justify-between items-start">

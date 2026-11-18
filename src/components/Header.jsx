@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { NavLink, Link } from "react-router";
-import { MapPin, Menu, X, Flower2 } from "lucide-react";
+import { MapPin, Menu, X } from "lucide-react";
 
 const links = [
   { to: "/", label: "Inicio", end: true },
@@ -29,11 +29,14 @@ export default function Header() {
           to="/"
           className="flex flex-col items-center justify-center self-stretch min-w-47.5 bg-white/60 rounded-b-2xl"
         >
-          <Flower2 className="size-9 text-brand-teal mb-1" />
-
-          <span className="text-3xl font-serif font-semibold text-brand-petrol leading-none">
-            Perfumar
-          </span>
+          {/* <Flower2 className="size-9 text-brand-teal mb-1" /> */}
+          <div className="flex items-center">
+            <span className="font-['Montserrat'] font-semibold uppercase tracking-[0.35em]">
+              PerfumarK
+            </span>
+            <img src="/iconPerfumarkBlueBg.svg" alt="" className="w-6 h-6 object-contain ml-0.5"/>
+          </div>
+          
 
           <span className="text-[9px] tracking-[0.28em] text-brand-petrol uppercase mt-1">
             Bienestar & Belleza
