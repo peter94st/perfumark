@@ -11,9 +11,12 @@ export function BathSetsSection () {
                 <div className="h-[2px] w-14 bg-brand-gold" />
 
                 <p className="text-gray-600 leading-relaxed">
-                    Regala momentos de bienestar y relajación con nuestra selección
-                    de sets de baño. Conjuntos cuidadosamente presentados, ideales
-                    para sorprender y disfrutar de pequeños momentos de cuidado personal.
+                    Ideales para hacer un regalo original, que contienen geles, lociones corporales, sales de baño, pastillas de jabón, exfoliantes corporales, etc.
+                    <br />
+                    Una gran variedad de modelos, con distintos tamaños y precios.
+                    <br />
+                    Una vez consumidos los productos que contienen, la cesta-neceser-set puede pasar a formar parte de la decoración del baño o de otra pieza de la casa con los productos que desee (flores secas o de tela, piezas de colores, algodones, plantas, frascos y tarros decorativos, etc.).
+                    Esta reutilización hará que la persona a quien usted regaló le recuerde siempre.
                 </p>
                 </div>
                 {/* Imagen */}

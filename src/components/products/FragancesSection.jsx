@@ -25,7 +25,7 @@ export function FragancesSection () {
               y ocasión. En Perfumark encontrarás aromas para todos
               los gustos, desde los más frescos y suaves hasta los más
               intensos y envolventes. */}
-                Gran variedad de perfumes para hombre o mujer que le recordarán sus aromas más apreciados, con una gran fijación y permanencia. Le sorprenderá su calidad. Son perfumes para toda la vida.
+                Gran variedad de perfumes para hombre, mujer, unisex e infantil que le <span className="font-bold">recordarán</span> sus aromas más apreciados, con una gran fijación y permanencia. Le sorprenderá su calidad. Son perfumes para toda la vida.
                 Todas las familias olfativas: floral, cítrica, amaderada, oriental, frutal, aromática, chipre, fougére, etc., con muchas variaciones en cada una de ellas.
                 Cuando agote el perfume, el frasco vacío no va a la basura, ya que es recargable y se ahorra 2 € en la recarga.
             </p>
