@@ -1,4 +1,4 @@
-
+import { CONTACT_INFO } from "@/info";
 import { Link } from "react-router";
 import { MapPin, Phone, ArrowUpRight } from "lucide-react";
 
@@ -22,7 +22,7 @@ export default function Footer() {
             <Link to="/" className="inline-block">
               <div className="flex items-center">
                 <span className="font-['Montserrat'] font-semibold uppercase tracking-[0.35em]">
-                  Perfumar
+                  Perfumark
                 </span>
                 <img src="/iconPerfumarkWhiteBg.svg" alt="" className="w-6 h-6 object-contain ml-0.5"/>
               </div>
@@ -67,14 +67,16 @@ export default function Footer() {
             <div className="flex gap-3 text-sm text-white/75">
               <MapPin className="size-5 text-brand-gold shrink-0" />
               <span>
-                Calle de Canillas, 102
-                <br />
-                28002 Madrid
+                  {CONTACT_INFO.addres[0]}
+                  <br />
+                  {CONTACT_INFO.addres[1]}
+                  <br />
+                  {CONTACT_INFO.addres[2]}
               </span>
             </div>
 
             <a
-              href="tel:+34917479450"
+              href={`tel:+34${CONTACT_INFO.phone}`}
               className="flex items-center gap-3 text-sm text-white/75 hover:text-brand-gold transition-colors"
             >
               <Phone className="size-5 text-brand-gold" />

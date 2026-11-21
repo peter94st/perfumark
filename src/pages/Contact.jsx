@@ -1,5 +1,6 @@
 
 import { MapPin, Phone, Clock, Navigation, Mail } from "lucide-react";
+import { CONTACT_INFO } from "@/info";
 
 const mapUrl =
   "https://www.google.com/maps?q=Perfumark,+Calle+de+Canillas+102,+Madrid&output=embed";
@@ -48,9 +49,11 @@ export default function Contact() {
                   Ven a conocernos
                 </h2>
                 <p className="text-gray-600 mt-2 leading-relaxed">
-                  Calle de Canillas, 102
+                  {CONTACT_INFO.addres[0]}
                   <br />
-                  28002 Madrid
+                  {CONTACT_INFO.addres[1]}
+                  <br />
+                  {CONTACT_INFO.addres[2]}
                 </p>
               </div>
             </div>
@@ -69,7 +72,7 @@ export default function Contact() {
                   href="tel:+34917479450"
                   className="text-gray-600 mt-2 inline-block hover:text-brand-teal transition-colors"
                 >
-                  917 47 94 50
+                  {CONTACT_INFO.phone}
                 </a>
               </div>
             </div>
@@ -89,7 +92,7 @@ export default function Contact() {
                 href="mailto:perfumark@hotmail.es"
                 className="text-gray-600 mt-2 inline-block hover:text-brand-teal transition-colors"
                 >
-                perfumark@hotmail.es
+                {CONTACT_INFO.mail}
                 </a>
             </div>
             </div>

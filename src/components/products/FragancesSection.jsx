@@ -1,3 +1,5 @@
+import { FragrancePrices } from "./FragancePrices"
+
 export function FragancesSection () {
     return (
       <section className="max-w-6xl mx-auto px-6 pb-16" id="fragancias">
@@ -38,8 +40,8 @@ export function FragancesSection () {
             <p className="text-gray-600 leading-relaxed">
               También pequeños sprays y roll-ones para el bolso.
             </p>
+            <FragrancePrices />
           </div>
-
         </div>
       </section>
     )

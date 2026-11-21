@@ -56,6 +56,10 @@ export default function Hero () {
                         tu día
                     </h1>
 
+                    <p className="text-xl md:text-2xl font-serif italic text-brand-teal">
+                        Calidad y buen gusto a precio asequible
+                    </p>
+
                     <p className="text-lg text-gray-700 max-w-md">
                         Perfumes, jabones y sets de baño
                         para cuidar de ti y de los tuyos.

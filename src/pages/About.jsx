@@ -51,7 +51,7 @@ export default function About() {
           {/* Imagen */}
           <div className="h-[350px] md:h-[480px]">
             <img
-              src="/images/about/perfumeria.jpg"
+              src="/images/about/tienda.jpeg"
               alt="Interior de Perfumark"
               className="w-full h-full object-cover rounded-xl"
             />
@@ -69,7 +69,7 @@ export default function About() {
 
             <p className="text-gray-600 leading-relaxed">
               En el corazón de Prosperidad, en Madrid, se encuentra
-              Perfumark, una perfumería de barrio donde descubrir
+              Perfumark, una perfumería donde descubrir
               nuevos aromas y encontrar ese perfume que encaja contigo.
             </p>
 

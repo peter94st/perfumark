@@ -1,4 +1,5 @@
 import { MapPin, Clock, Navigation } from "lucide-react";
+import { CONTACT_INFO } from "@/info";
 
 const mapUrl =
   "https://www.google.com/maps?q=Perfumark,+Calle+de+Canillas+102,+Madrid&output=embed";
@@ -34,9 +35,11 @@ export default function VisitSection() {
                   Dónde estamos
                 </h3>
                 <p className="text-gray-600 text-sm mt-1">
-                  Calle de Canillas, 102
+                  {CONTACT_INFO.addres[0]}
                   <br />
-                  28002 Madrid
+                  {CONTACT_INFO.addres[1]}
+                  <br />
+                  {CONTACT_INFO.addres[2]}
                 </p>
               </div>
             </div>
